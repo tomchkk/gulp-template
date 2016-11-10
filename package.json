@@ -1,0 +1,33 @@
+{
+  "name": "gulp-template",
+  "version": "1.0.0",
+  "description": "A template for a modularised gulp installation",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-debug": "^3.0.0",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-util": "^3.0.7",
+    "load-gulp-tasks": "^0.1.0",
+    "semistandard": "^9.1.0"
+  },
+  "scripts": {
+    "test": "none"
+  },
+  "keywords": [
+    "gulp",
+    "modular",
+    "template"
+  ],
+  "author": "tomchkk",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomchkk/gulp-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tomchkk/gulp-template/issues"
+  },
+  "homepage": "https://github.com/tomchkk/gulp-template#readme"
+}
