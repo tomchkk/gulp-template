@@ -10,10 +10,17 @@
     "gulp-load-plugins": "^1.4.0",
     "gulp-util": "^3.0.7",
     "load-gulp-tasks": "^0.1.0",
+    "mocha": "^3.1.2",
     "semistandard": "^9.1.0"
   },
   "scripts": {
-    "test": "none"
+    "test": "mocha ./gulp/**/*.test.js"
+  },
+  "semistandard": {
+    "globals": [
+        "describe",
+        "it"
+    ]
   },
   "keywords": [
     "gulp",
