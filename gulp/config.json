@@ -9,6 +9,9 @@
     "clean": {},
     "default": {
       "deps": ["clean", "build"]
+    },
+    "watch": {
+      "tasks": []
     }
   }
 }
