@@ -1,6 +1,9 @@
 {
   "src": ["./gulp/tasks/**/*.js"],
   "tasks": {
+    "default": {
+      "deps": ["build"]
+    },
     "build": {
       "src": "./tasks",
       "desk": "./"
