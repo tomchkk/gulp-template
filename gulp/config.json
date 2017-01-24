@@ -5,8 +5,8 @@
       "deps": ["build"]
     },
     "build": {
-      "src": "./tasks",
-      "desk": "./"
+      "src": ["./tasks"],
+      "dest": "./"
     }
   }
 }
