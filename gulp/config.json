@@ -1,9 +1,9 @@
 {
-    "tasks": {
-        "_glob": ["./gulp/tasks/**/*.js"],
-        "build": {
-            "src": "./tasks",
-            "dest": "./"
-        }
+  "src": ["./gulp/tasks/**/*.js"],
+  "tasks": {
+    "build": {
+      "src": "./tasks",
+      "desk": "./"
     }
+  }
 }
