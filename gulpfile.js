@@ -1,7 +1,13 @@
 var gulp = require('gulp');
 var config = require('./gulp/config.json');
-var pattern = config.tasks._glob;
 
-require('load-gulp-tasks')(gulp, {pattern: pattern, config: config});
+var taskGlob = config.src;
+
+var options = {
+  pattern: taskGlob,
+  config: config
+};
+
+require('load-gulp-tasks')(gulp, options);
 
 gulp.task('default', ['build']);
