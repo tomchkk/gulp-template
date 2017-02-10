@@ -1,1 +1,7 @@
-{}
+{
+  "tasks": {
+    "build": {
+      "dest": "./dist/dev/"
+    }
+  }
+}
