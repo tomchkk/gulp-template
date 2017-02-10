@@ -1,14 +1,14 @@
 {
   "src": ["./gulp/tasks/**/*.js"],
   "tasks": {
+    "default": {
+      "deps": ["clean", "build"]
+    },
+    "clean": {},
     "build": {
       "deps": ["clean"],
       "src": ["./tasks"],
       "dest": "./dist/"
-    },
-    "clean": {},
-    "default": {
-      "deps": ["clean", "build"]
     },
     "watch": {
       "tasks": []

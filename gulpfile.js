@@ -1,5 +1,6 @@
 var gulp = require('gulp');
-var config = require('./gulp/config.json');
+var argv = require('yargs').argv;
+var config = require('./gulp/lib/get-config')(argv);
 
 var taskGlob = config.src;
 
