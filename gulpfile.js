@@ -10,5 +10,3 @@ var options = {
 };
 
 require('load-gulp-tasks')(gulp, options);
-
-gulp.task('default', ['build']);
